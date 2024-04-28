@@ -1,0 +1,27 @@
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(min(100%, 250px), 1fr)
+    );
+    grid-gap: 20px;
+  }
+.sideBar{
+   left: 0;
+   transition: left 1s;
+}
+.restable{
+  overflow: auto;
+  /* min-width: 1024px; */
+}
+
+/* what happening here is that scroll only comes  when i set the parent overflow-auto but set maxwidth to children 
+it doesn't matter even if we make the child to parent relative width and set the parent as max width 
+*/
+.ta{
+  /* overflow: auto; */
+  min-width: 1024px;
+  width: 100%;
+}
+
+
