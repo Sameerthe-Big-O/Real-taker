@@ -12,12 +12,12 @@ const Admin = () => {
     <div className="flex min-h-screen relative">
       <div
         className={`bg-[#363740] 
-        z-50  min-w-[230px] p-4 border-b-2 
-      max-md:fixed sideBar  max-md:top-0  max-md:bottom-0 
+        z-50  min-w-[200px]  border-b-2 
+      max-lg:fixed sideBar  max-lg:top-0  max-lg:bottom-0 
       ${
         visible
-          ? "max-md:top-0  max-md:left-0"
-          : "max-md:top-0  max-md:-left-60"
+          ? "max-lg:top-0  max-lg:left-0"
+          : "max-lg:top-0  max-lg:-left-60"
       }
        `}
       >

@@ -17,19 +17,19 @@ export const MenuData = [
         },
         {
           id: 2,
-          url: '/administration',
+          url: 'administration',
           title: 'Administration',
           icon:Administrator ,
         },
         {
           id: 3,
-          url: '/buildings',
+          url: 'buildings',
           title: 'Building',
           icon: Buildings ,
         },
         {
           id: 4,
-          url: '/contacts',
+          url: 'contacts',
           title: 'Contacts',
           icon: Contacts ,
         },

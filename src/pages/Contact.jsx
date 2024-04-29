@@ -12,6 +12,7 @@ import LeftArrow from "../assets/svgs/LeftArrow.svg";
 import ActionTake from "../components/ActionTaker";
 
 const Contact = () => {
+  //*we can this in index.data file as well for cleaning the component
   const data = [
     {
       columns: ["name", "email", "phone", "Active", "action"],

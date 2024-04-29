@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 
 const MenuOptions = ({ MenuItems }) => {
   return (
-    <div className="h-full">
+  <>
       {MenuItems.map((menuItem,index) => {
         return (
-          <div key={index} className="w-full h-[54px] flex mt-1 items-center text-[#FFFFFF] font-normal text-[16px]">
+          <div key={index} className="w-full h-[54px] flex mt-1 items-center text-[#FFFFFF] font-normal text-[16px] hover:bg-slate-500 transition-all duration-500 p-4
+          ">
             <Link to={menuItem.url}>
               <div key={menuItem.id} className="flex ">
                 <img src={menuItem.icon} /> 
@@ -17,7 +18,7 @@ const MenuOptions = ({ MenuItems }) => {
           </div>
         );
       })}
-    </div>
+      </>
   );
 };
 

@@ -15,9 +15,9 @@ function App() {
     <Routes>
        <Route path='/login'element ={<Login/>}/> 
        <Route path='/admin' element={<Admin/>}>
-       <Route path='dashBoard'element ={<AdminManagement/>}/> 
+       <Route path='administration'element ={<AdminManagement/>}/> 
        <Route path='buildings'element ={<Buildings/>}/> 
-       <Route path='contact'element ={<ContactPage/>}/> 
+       <Route path='contacts'element ={<ContactPage/>}/> 
        <Route path='contact/form'element ={<ContactPageForm/>}/> 
        </Route> 
        <Route path='*'  element={<ErrorPage/>}/>

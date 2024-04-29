@@ -8,13 +8,14 @@ import ProfileTaker from "../components/ProfileTaker";
 import HighLightButton from "../components/HighLightButton";
 import Search from "../assets/images/Search.png";
 import ActionTake from "../components/ActionTaker";
+
 export const data = [
   {
     columns: ["name", "email", "phone", "Active", "action"],
     rows: [
       {
         name: <ProfileTaker image={Image} text={"sameer"} />,
-        email: "sameerr@gmail.com",
+        email: "sameerr@gmail.com the way w're dealoing is the new way",
         phone: "1234567890",
         Active: ActiceSvg,
         action: (
@@ -94,7 +95,7 @@ const AdminManagement = () => {
             </button>
           </div>
           <div className="flex items-center gap-4
-           max-md:justify-between max-sm:flex-col max-sm:items-start 
+           max-md:justify-between max-sm:flex-col max-sm:items-start max-md:mt-3 
           ">
             <div className="flex gap-2">
               <HighLightButton
